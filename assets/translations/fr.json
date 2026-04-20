@@ -1,0 +1,44 @@
+{
+  "profile": "Profil",
+  "tracker": "Suivi de grossesse",
+  "notes": "Notes",
+  "reminders": "Rappels",
+  "tips": "Conseils",
+  "settings": "Paramètres",
+  "notifications": "Notifications",
+  "dark_mode": "Mode sombre",
+  "save": "Enregistrer",
+
+  "write_note": "Écrire une note...",
+  "no_notes": "Aucune note",
+
+  "write_reminder": "Écrire un rappel...",
+  "no_reminders": "Aucun rappel",
+
+  "write_tip": "Ajouter un nouveau conseil...",
+  "no_tips": "Aucun conseil",
+
+  "profile_saved": "Données enregistrées avec succès",
+  "last_menstrual_period": "Dernière période menstruelle",
+  "weight": "Poids",
+  "height": "Taille",
+  "example_weight": "Exemple : 65 kg",
+  "example_height": "Exemple : 165 cm",
+  "save_data": "Enregistrer les données",
+  "date_format_hint": "yyyy-MM-dd",
+  "enter_lmp": "Veuillez entrer la date de votre dernière période menstruelle dans la page profil.",
+  "current_week": "Semaine actuelle",
+  "due_date": "Date prévue d'accouchement",
+  "fetus_size": "Taille du fœtus",
+  "progress": "Progression",
+  "delete": "Supprimer",
+  "delete_confirm": "Êtes-vous sûr de vouloir supprimer ce conseil ?",
+  "cancel": "Annuler",
+  "current_week_info": "Semaine {} de la grossesse (sur 40 semaines)",
+  "due_date_info": "Date prévue d'accouchement : {}-{}-{}",
+  "fetus_size_info": "Taille du fœtus : {} cm",
+
+  "articles": "Articles",
+  "no_articles": "Aucun article",
+  "read_more": "Lire la suite"
+}

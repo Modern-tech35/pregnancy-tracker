@@ -1,0 +1,46 @@
+{
+  "profile": "الملف الشخصي",
+  "tracker": "متابعة الحمل",
+  "notes": "الملاحظات",
+  "reminders": "التذكيرات",
+  "tips": "نصائح",
+  "settings": "الإعدادات",
+  "notifications": "الإشعارات",
+  "dark_mode": "الوضع الليلي",
+  "save": "حفظ",
+
+  "write_note": "اكتب ملاحظة...",
+  "no_notes": "لا توجد ملاحظات",
+
+  "write_reminder": "اكتب تذكير...",
+  "no_reminders": "لا توجد تذكيرات",
+
+  "write_tip": "أضف نصيحة جديدة...",
+  "no_tips": "لا توجد نصائح",
+
+  "profile_saved": "تم حفظ البيانات بنجاح",
+  "last_menstrual_period": "آخر دورة شهرية",
+  "weight": "الوزن",
+  "height": "الطول",
+  "example_weight": "مثال: 65 كغ",
+  "example_height": "مثال: 165 سم",
+  "save_data": "حفظ البيانات",
+  "date_format_hint": "yyyy-MM-dd",
+  "enter_lmp": "الرجاء إدخال تاريخ آخر دورة شهرية في صفحة الملف الشخصي.",
+  "current_week": "الأسبوع الحالي",
+  "due_date": "تاريخ الولادة المتوقع",
+  "fetus_size": "حجم الجنين",
+  "progress": "نسبة التقدم",
+  "delete": "حذف",
+  "delete_confirm": "هل أنت متأكد أنك تريد حذف هذه النصيحة؟",
+  "cancel": "إلغاء",
+  "current_week_info": "الأسبوع {} من الحمل (من أصل 40 أسبوعًا)",
+  "due_date_info": "تاريخ الولادة المتوقع: {}-{}-{}",
+  "fetus_size_info": "حجم الجنين: {} سم",
+
+  "articles": "المقالات",           
+  "no_articles": "لا توجد مقالات",   
+  "read_more": "اقرأ المزيد"      
+}
+
+

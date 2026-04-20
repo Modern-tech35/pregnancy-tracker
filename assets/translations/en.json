@@ -1,0 +1,44 @@
+{
+  "profile": "Profile",
+  "tracker": "Pregnancy Tracker",
+  "notes": "Notes",
+  "reminders": "Reminders",
+  "tips": "Tips",
+  "settings": "Settings",
+  "notifications": "Notifications",
+  "dark_mode": "Dark Mode",
+  "save": "Save",
+
+  "write_note": "Write a note...",
+  "no_notes": "No notes",
+
+  "write_reminder": "Write a reminder...",
+  "no_reminders": "No reminders",
+
+  "write_tip": "Add a new tip...",
+  "no_tips": "No tips",
+
+  "profile_saved": "Data saved successfully",
+  "last_menstrual_period": "Last Menstrual Period",
+  "weight": "Weight",
+  "height": "Height",
+  "example_weight": "Example: 65 kg",
+  "example_height": "Example: 165 cm",
+  "save_data": "Save Data",
+  "date_format_hint": "yyyy-MM-dd",
+  "enter_lmp": "Please enter the date of your last menstrual period in the profile page.",
+  "current_week": "Current Week",
+  "due_date": "Expected Due Date",
+  "fetus_size": "Fetus Size",
+  "progress": "Progress",
+  "delete": "Delete",
+  "delete_confirm": "Are you sure you want to delete this tip?",
+  "cancel": "Cancel",
+  "current_week_info": "Week {} of pregnancy (out of 40 weeks)",
+  "due_date_info": "Expected due date: {}-{}-{}",
+  "fetus_size_info": "Fetus size: {} cm",
+
+  "articles": "Articles",
+  "no_articles": "No articles",
+  "read_more": "Read More"
+}
