@@ -21,6 +21,11 @@ Offline-first design
 All personal data stored locally on device
 No external data tracking
 
+
+
+https://github.com/user-attachments/assets/5560712e-cf53-4d46-8ced-b8245c58d3c3
+
+
 <img width="108" height="240" alt="Screenshot_2026-01-02-21-34-02-630_com example pregn_3" src="https://github.com/user-attachments/assets/c0007381-ceb3-4505-b5b6-23fbf426c7f5" />
 
 <img width="108" height="240" alt="Screenshot_2026-01-02-21-33-16-618_com example pregn_3" src="https://github.com/user-attachments/assets/392f095e-09a0-4bb7-9afd-02bdde40824e" />
