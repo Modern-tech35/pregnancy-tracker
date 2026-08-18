@@ -7,18 +7,18 @@ A simple and privacy-focused pregnancy tracking app built with Flutter.
 Flutter (Cross-platform UI)
 Dart
 Hive (Offline local database)
-JSON API (For articles & tips)
+Bundled article data (JSON + images, offline-first with remote fallback)
 Flutter Localization (Arabic / English / French)
-Light & Dark Mode support
+Light / Dark / System theme modes
 
 ✨ Features
 
 Pregnancy tracking based on LMP (week & due date calculation)
 Profile storage (weight, height, LMP) locally
-Notes system with offline persistence (Hive)
 Reminders management (basic, notifications structure ready)
-Pregnancy articles fetched from cloud JSON
-Clean UI with pink theme + dark mode
+Pregnancy articles served offline from bundled assets, with a remote fallback when available
+Navigation drawer with language switcher (AR / EN / FR), notifications toggle, and theme selector (Light / Dark / System)
+Clean UI with pink theme + theme mode support
 
 🔒 Privacy
 
