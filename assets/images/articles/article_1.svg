@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- droplets -->
+  <ellipse cx="250" cy="170" rx="22" ry="30" fill="#7DD3FC" transform="rotate(18 250 170)"/>
+  <ellipse cx="560" cy="150" rx="18" ry="26" fill="#BAE6FD" transform="rotate(-15 560 150)"/>
+  <ellipse cx="620" cy="260" rx="14" ry="20" fill="#7DD3FC" transform="rotate(12 620 260)"/>
+
+  <!-- waves -->
+  <path d="M0 480 q40 -26 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 v120 h-640 z" fill="#BAE6FD" opacity="0.55"/>
+  <path d="M0 520 q40 -26 80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 t80 0 v80 h-640 z" fill="#7DD3FC" opacity="0.7"/>
+
+  <!-- glass -->
+  <path d="M320 220 h160 v150 q0 45 -40 45 h-80 q-40 0 -40 -45 z" fill="#E0F2FE"/>
+  <path d="M320 220 h160 v150 q0 45 -40 45 h-80 q-40 0 -40 -45 z" fill="none" stroke="#7DD3FC" stroke-width="8"/>
+
+  <!-- water inside -->
+  <path d="M332 320 h136 v42 q0 35 -30 38 h-76 q-30 -3 -30 -38 z" fill="#7DD3FC"/>
+
+  <!-- bubbles -->
+  <circle cx="370" cy="280" r="12" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="420" cy="260" r="16" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="450" cy="300" r="9" fill="#FFFFFF" opacity="0.8"/>
+
+  <!-- sparkle -->
+  <path d="M160 300 l9 19 19 9 -19 9 -9 19 -9 -19 -19 -9 19 -9 z" fill="#F472B6"/>
+  <path d="M660 360 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#FBBF24"/>
+</svg>

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:easy_localization/easy_localization.dart';
 
+import 'app_drawer.dart';
+
 class ProfilePage extends StatefulWidget {
   const ProfilePage({super.key});
 
@@ -40,6 +42,7 @@ class _ProfilePageState extends State<ProfilePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: ValueKey(context.locale.languageCode), // لتحديث الصفحة عند تغيير اللغة
+      drawer: const AppDrawer(),
       appBar: AppBar(title: Text('profile'.tr())),
       body: ListView(
         padding: const EdgeInsets.all(16),

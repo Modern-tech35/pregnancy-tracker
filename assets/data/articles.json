@@ -1,0 +1,244 @@
+{
+  "ar": [
+    {
+      "id": 1,
+      "title": "فوائد شرب الماء أثناء الحمل",
+      "content": "شرب الماء بكميات كافية يحافظ على ترطيب جسم الحامل ويدعم نمو الجنين بشكل صحي، كما يقلل من مشاكل الإمساك والتورم.",
+      "image": "assets/images/articles/article_1.png"
+    },
+    {
+      "id": 2,
+      "title": "أهمية ممارسة الرياضة الخفيفة",
+      "content": "الرياضة الخفيفة مثل المشي أو تمارين التمدد تساعد على تحسين الدورة الدموية وتقليل التوتر وتعزز الصحة النفسية خلال الحمل.",
+      "image": "assets/images/articles/article_2.png"
+    },
+    {
+      "id": 3,
+      "title": "التغذية السليمة للحامل",
+      "content": "تناول وجبات متوازنة تحتوي على البروتين، الخضروات، والفواكه يضمن حصول الجنين على العناصر الغذائية اللازمة لنموه بشكل صحي.",
+      "image": "assets/images/articles/article_3.png"
+    },
+    {
+      "id": 4,
+      "title": "النوم الصحي أثناء الحمل",
+      "content": "النوم الكافي يساعد جسمك على التعافي ويمنح الجنين بيئة مثالية للنمو. جرّبي النوم على جانبك مع وسادة داعمة لتقليل الضغط على ظهرك.",
+      "image": "assets/images/articles/article_4.png"
+    },
+    {
+      "id": 5,
+      "title": "حمض الفوليك وفيتامينات الحمل",
+      "content": "حمض الفوليك مهم لنمو الجهاز العصبي للجنين في الأشهر الأولى. تناولي فيتامينات ما قبل الولادة يوميًا بعد استشارة طبيبك.",
+      "image": "assets/images/articles/article_5.png"
+    },
+    {
+      "id": 6,
+      "title": "التغلب على التوتر والقلق",
+      "content": "التوتر المفرط قد يؤثر على صحتك وصحة جنينك. خصصي وقتًا يوميًا للاسترخاء والتنفس العميق، وتحدثي مع من تثقين به.",
+      "image": "assets/images/articles/article_6.png"
+    },
+    {
+      "id": 7,
+      "title": "أطعمة يجب تجنبها أثناء الحمل",
+      "content": "تجنبي الأسماك الغنية بالزئبق واللحوم النيئة ومنتجات الألبان غير المبسترة للوقاية من العدوى، واغسلي الخضروات والفواكه جيدًا قبل تناولها.",
+      "image": "assets/images/articles/article_7.png"
+    },
+    {
+      "id": 8,
+      "title": "اليوغا والتمدد للحامل",
+      "content": "اليوغا اللطيفة وتمارين التمدد تحسن المرونة وتخفف آلام الظهر وتحضر جسمك للولادة. استشيري طبيبك قبل بدء أي برنامج رياضي.",
+      "image": "assets/images/articles/article_8.png"
+    },
+    {
+      "id": 9,
+      "title": "متابعة حركة الجنين",
+      "content": "ملاحظة حركات جنينك المنتظمة علامة مطمئنة على صحته. ابدئي بتتبع ركلاته في الشهور الأخيرة وأخبري طبيبك عند أي تغير مفاجئ.",
+      "image": "assets/images/articles/article_9.png"
+    },
+    {
+      "id": 10,
+      "title": "تقليل الكافيين أثناء الحمل",
+      "content": "الإفراط في الكافيين قد يزيد خطر انخفاض وزن المولود. يُنصح بعدم تجاوز 200 ملغ يوميًا أي ما يعادل كوبًا إلى كوبين من القهوة.",
+      "image": "assets/images/articles/article_10.png"
+    },
+    {
+      "id": 11,
+      "title": "تجهيز أساسيات الطفل",
+      "content": "جهزي حقيبة المستشفى ومستلزمات الطفل الأساسية من الحفاضات والملابس قبل أسابيع من موعد الولادة لتكوني مستعدة تمامًا.",
+      "image": "assets/images/articles/article_11.png"
+    },
+    {
+      "id": 12,
+      "title": "العناية بالبشرة أثناء الحمل",
+      "content": "التغيرات الهرمونية قد تسبب جفاف البشرة أو ظهور البقع. استخدمي مرطبات لطيفة وواقي الشمس وتجنبي المنتجات الكيميائية القاسية.",
+      "image": "assets/images/articles/article_12.png"
+    },
+    {
+      "id": 13,
+      "title": "وضعية الجسم وآلام الظهر",
+      "content": "آلام أسفل الظهر شائعة مع نمو البطن. حافظي على قوام معتدل، وتجنبي الوقوف الطويل، واستخدمي وسادة داعمة عند الجلوس والنوم.",
+      "image": "assets/images/articles/article_13.png"
+    }
+  ],
+
+  "en": [
+    {
+      "id": 1,
+      "title": "Benefits of Drinking Water During Pregnancy",
+      "content": "Drinking enough water keeps the pregnant woman's body hydrated, supports healthy fetal growth, and reduces constipation and swelling.",
+      "image": "assets/images/articles/article_1.png"
+    },
+    {
+      "id": 2,
+      "title": "Importance of Light Exercise",
+      "content": "Light activities such as walking or stretching improve blood circulation, reduce stress, and enhance mental well-being during pregnancy.",
+      "image": "assets/images/articles/article_2.png"
+    },
+    {
+      "id": 3,
+      "title": "Healthy Nutrition for Pregnant Women",
+      "content": "Eating balanced meals that include protein, vegetables, and fruits ensures the fetus gets the nutrients it needs for healthy development.",
+      "image": "assets/images/articles/article_3.png"
+    },
+    {
+      "id": 4,
+      "title": "Healthy Sleep During Pregnancy",
+      "content": "Getting enough sleep helps your body recover and gives your baby an ideal environment to grow. Try sleeping on your side with a supportive pillow to ease pressure on your back.",
+      "image": "assets/images/articles/article_4.png"
+    },
+    {
+      "id": 5,
+      "title": "Folic Acid and Prenatal Vitamins",
+      "content": "Folic acid is essential for your baby's nervous system development in the first months. Take your prenatal vitamins daily after consulting your doctor.",
+      "image": "assets/images/articles/article_5.png"
+    },
+    {
+      "id": 6,
+      "title": "Managing Stress and Anxiety",
+      "content": "Excessive stress can affect both you and your baby. Set aside daily time to relax and breathe deeply, and talk to someone you trust.",
+      "image": "assets/images/articles/article_6.png"
+    },
+    {
+      "id": 7,
+      "title": "Foods to Avoid During Pregnancy",
+      "content": "Avoid mercury-rich fish, raw meat, and unpasteurized dairy to prevent infections, and wash fruits and vegetables thoroughly before eating.",
+      "image": "assets/images/articles/article_7.png"
+    },
+    {
+      "id": 8,
+      "title": "Yoga and Stretching for Pregnancy",
+      "content": "Gentle yoga and stretching improve flexibility, ease back pain, and prepare your body for birth. Consult your doctor before starting any exercise program.",
+      "image": "assets/images/articles/article_8.png"
+    },
+    {
+      "id": 9,
+      "title": "Tracking Your Baby's Movements",
+      "content": "Noticing your baby's regular movements is a reassuring sign of good health. Start tracking kicks in the later months and tell your doctor about any sudden change.",
+      "image": "assets/images/articles/article_9.png"
+    },
+    {
+      "id": 10,
+      "title": "Limiting Caffeine During Pregnancy",
+      "content": "Too much caffeine may increase the risk of low birth weight. It is recommended to stay under 200 mg per day, about one to two cups of coffee.",
+      "image": "assets/images/articles/article_10.png"
+    },
+    {
+      "id": 11,
+      "title": "Preparing Baby Essentials",
+      "content": "Pack your hospital bag and basic baby supplies like diapers and clothes weeks before your due date so you are fully ready.",
+      "image": "assets/images/articles/article_11.png"
+    },
+    {
+      "id": 12,
+      "title": "Skin Care During Pregnancy",
+      "content": "Hormonal changes can cause dry skin or dark spots. Use gentle moisturizers and sunscreen, and avoid harsh chemical products.",
+      "image": "assets/images/articles/article_12.png"
+    },
+    {
+      "id": 13,
+      "title": "Posture and Back Pain Relief",
+      "content": "Lower back pain is common as your belly grows. Keep good posture, avoid standing too long, and use a supportive pillow when sitting or sleeping.",
+      "image": "assets/images/articles/article_13.png"
+    }
+  ],
+
+  "fr": [
+    {
+      "id": 1,
+      "title": "Les bienfaits de l'eau pendant la grossesse",
+      "content": "Boire suffisamment d’eau aide à hydrater le corps de la femme enceinte, soutient le développement sain du fœtus et réduit la constipation et les gonflements.",
+      "image": "assets/images/articles/article_1.png"
+    },
+    {
+      "id": 2,
+      "title": "Importance de l'exercice léger",
+      "content": "Les exercices légers comme la marche ou les étirements améliorent la circulation sanguine, réduisent le stress et renforcent le bien-être mental pendant la grossesse.",
+      "image": "assets/images/articles/article_2.png"
+    },
+    {
+      "id": 3,
+      "title": "Une alimentation saine pour la femme enceinte",
+      "content": "Manger des repas équilibrés contenant des protéines, des légumes et des fruits assure au fœtus les nutriments nécessaires à un développement sain.",
+      "image": "assets/images/articles/article_3.png"
+    },
+    {
+      "id": 4,
+      "title": "Un sommeil sain pendant la grossesse",
+      "content": "Un sommeil suffisant aide votre corps à récupérer et offre à votre bébé un environnement idéal pour grandir. Essayez de dormir sur le côté avec un oreiller de soutien pour soulager votre dos.",
+      "image": "assets/images/articles/article_4.png"
+    },
+    {
+      "id": 5,
+      "title": "Acide folique et vitamines prénatales",
+      "content": "L'acide folique est essentiel au développement du système nerveux de votre bébé au cours des premiers mois. Prenez vos vitamines prénatales chaque jour après avoir consulté votre médecin.",
+      "image": "assets/images/articles/article_5.png"
+    },
+    {
+      "id": 6,
+      "title": "Gérer le stress et l'anxiété",
+      "content": "Un stress excessif peut affecter votre santé et celle de votre bébé. Accordez-vous du temps chaque jour pour vous détendre et respirer profondément, et parlez à une personne de confiance.",
+      "image": "assets/images/articles/article_6.png"
+    },
+    {
+      "id": 7,
+      "title": "Aliments à éviter pendant la grossesse",
+      "content": "Évitez les poissons riches en mercure, la viande crue et les produits laitiers non pasteurisés pour prévenir les infections, et lavez soigneusement les fruits et légumes avant de les manger.",
+      "image": "assets/images/articles/article_7.png"
+    },
+    {
+      "id": 8,
+      "title": "Yoga et étirements pour la grossesse",
+      "content": "Le yoga doux et les étirements améliorent la souplesse, soulagent les maux de dos et préparent votre corps à l'accouchement. Consultez votre médecin avant de commencer tout programme d'exercice.",
+      "image": "assets/images/articles/article_8.png"
+    },
+    {
+      "id": 9,
+      "title": "Suivre les mouvements de votre bébé",
+      "content": "Remarquer les mouvements réguliers de votre bébé est un signe rassurant de bonne santé. Commencez à suivre ses coups de pied au cours des derniers mois et signalez tout changement soudain à votre médecin.",
+      "image": "assets/images/articles/article_9.png"
+    },
+    {
+      "id": 10,
+      "title": "Limiter la caféine pendant la grossesse",
+      "content": "Un excès de caféine peut augmenter le risque de faible poids de naissance. Il est recommandé de rester sous 200 mg par jour, soit environ une à deux tasses de café.",
+      "image": "assets/images/articles/article_10.png"
+    },
+    {
+      "id": 11,
+      "title": "Préparer l'essentiel pour bébé",
+      "content": "Préparez votre sac de maternité et les produits essentiels comme les couches et les vêtements quelques semaines avant la date prévue pour être complètement prête.",
+      "image": "assets/images/articles/article_11.png"
+    },
+    {
+      "id": 12,
+      "title": "Soins de la peau pendant la grossesse",
+      "content": "Les changements hormonaux peuvent provoquer une peau sèche ou des taches. Utilisez des crèmes hydratantes douces et de la crème solaire, et évitez les produits chimiques agressifs.",
+      "image": "assets/images/articles/article_12.png"
+    },
+    {
+      "id": 13,
+      "title": "Posture et soulagement des maux de dos",
+      "content": "Les douleurs lombaires sont fréquentes à mesure que le ventre grossit. Maintenez une bonne posture, évitez de rester debout trop longtemps et utilisez un oreiller de soutien pour vous asseoir ou dormir.",
+      "image": "assets/images/articles/article_13.png"
+    }
+  ]
+}

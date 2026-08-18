@@ -6,9 +6,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'profile_page.dart';
 import 'articles_page.dart';
 import 'tracker_page.dart';
-import 'notes_page.dart';
 import 'reminders_page.dart';
-import 'settings_page.dart';
 
 
 late ValueNotifier<ThemeMode> themeNotifier;
@@ -25,14 +23,25 @@ void main() async {
   // فتح صناديق Hive
   await Hive.openBox('settings');
   await Hive.openBox('profile');
-  await Hive.openBox('notes');
   await Hive.openBox('reminders');
 
   final settingsBox = Hive.box('settings');
 
-  // قراءة الوضع الليلي
-  bool dark = settingsBox.get('darkTheme', defaultValue: false);
-  themeNotifier = ValueNotifier(dark ? ThemeMode.dark : ThemeMode.light);
+  // قراءة المظهر: light / dark / system (مع دعم القيم القديمة)
+  final savedTheme = settingsBox.get('themeMode', defaultValue: '');
+  ThemeMode initialMode;
+  if (savedTheme == 'light' || savedTheme == 'dark' || savedTheme == 'system') {
+    initialMode = savedTheme == 'dark'
+        ? ThemeMode.dark
+        : savedTheme == 'light'
+            ? ThemeMode.light
+            : ThemeMode.system;
+  } else {
+    initialMode = settingsBox.get('darkTheme', defaultValue: false)
+        ? ThemeMode.dark
+        : ThemeMode.light;
+  }
+  themeNotifier = ValueNotifier(initialMode);
 
   // قراءة اللغة المخزنة
   String savedLang = settingsBox.get('language', defaultValue: 'ar');
@@ -64,7 +73,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ValueListenableBuilder<ThemeMode>(
       valueListenable: themeNotifier,
-      builder: (_, ThemeMode currentMode, __) {
+      builder: (_, ThemeMode currentMode, _) {
         return MaterialApp(
           title: 'Pregnancy Tracker',
           debugShowCheckedModeBanner: false,
@@ -113,15 +122,16 @@ class _MainPageState extends State<MainPage> {
     const ProfilePage(),
     const ArticlesPage(),
     const TrackerPage(),
-    const NotesPage(),
     const RemindersPage(),
-    const SettingsPage(),
   ];
 
   @override
   Widget build(BuildContext context) {
+    // الاعتماد على اللغة الحالية حتى تُعاد بناء الصفحة فور تغيير اللغة
+    final langKey = ValueKey('page_${context.locale.languageCode}');
+
     return Scaffold(
-      body: _pages[_currentIndex],
+      body: KeyedSubtree(key: langKey, child: _pages[_currentIndex]),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         type: BottomNavigationBarType.fixed,
@@ -146,16 +156,8 @@ class _MainPageState extends State<MainPage> {
             label: 'tracker'.tr(),
           ),
           BottomNavigationBarItem(
-            icon: const Icon(Icons.note),
-            label: 'notes'.tr(),
-          ),
-          BottomNavigationBarItem(
             icon: const Icon(Icons.notifications),
             label: 'reminders'.tr(),
-          ),
-          BottomNavigationBarItem(
-            icon: const Icon(Icons.settings),
-            label: 'settings'.tr(),
           ),
         ],
       ),

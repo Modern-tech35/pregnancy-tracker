@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- breath curves -->
+  <g stroke="#F472B6" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M120 500 q45 -70 0 -150"/>
+    <path d="M200 500 q60 -90 0 -190"/>
+    <path d="M280 500 q75 -110 0 -230"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M640 130 l10 22 22 10 -22 10 -10 22 -10 -22 -22 -10 22 -10 z" fill="#FBBF24"/>
+  <path d="M700 260 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#F9A8D4"/>
+  <path d="M150 120 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#F9A8D4"/>
+
+  <!-- face -->
+  <g>
+    <circle cx="440" cy="330" r="160" fill="#FFE4E6"/>
+    <circle cx="440" cy="330" r="160" fill="none" stroke="#F9A8D4" stroke-width="6"/>
+    <path d="M360 300 q28 24 56 0" stroke="#BE185D" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M464 300 q28 24 56 0" stroke="#BE185D" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M390 380 q50 44 100 0" stroke="#BE185D" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <circle cx="350" cy="358" r="16" fill="#F472B6" opacity="0.5"/>
+    <circle cx="530" cy="358" r="16" fill="#F472B6" opacity="0.5"/>
+  </g>
+
+  <!-- heart -->
+  <g fill="#EC4899">
+    <circle cx="652" cy="212" r="14"/>
+    <circle cx="680" cy="212" r="14"/>
+    <path d="M622 218 L710 218 L666 250 z"/>
+  </g>
+</svg>

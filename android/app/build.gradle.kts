@@ -17,7 +17,7 @@ plugins {
 
 android {
     // تأكد أن هذا المعرف فريد لتطبيقك على المتجر
-    namespace = "com.example.pregn_3"
+    namespace = "com.moderntech.pregnancytracker"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -32,16 +32,18 @@ android {
 
     // 2. إعدادات التوقيع (Signing Configuration)
     signingConfigs {
-        create("release") {
-            keyAlias = keystoreProperties["keyAlias"] as String
-            keyPassword = keystoreProperties["keyPassword"] as String
-            storeFile = keystoreProperties["storeFile"]?.let { file(it) }
-            storePassword = keystoreProperties["storePassword"] as String
+        if (keystorePropertiesFile.exists()) {
+            create("release") {
+                keyAlias = keystoreProperties["keyAlias"] as String
+                keyPassword = keystoreProperties["keyPassword"] as String
+                storeFile = keystoreProperties["storeFile"]?.let { file(it) }
+                storePassword = keystoreProperties["storePassword"] as String
+            }
         }
     }
 
     defaultConfig {
-        applicationId = "com.example.pregn_3"
+        applicationId = "com.moderntech.pregnancytracker"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
@@ -50,9 +52,13 @@ android {
 
     buildTypes {
         release {
-            // 3. ربط نسخة الـ Release بملف الـ Keystore الذي عرفناه
-            signingConfig = signingConfigs.getByName("release")
-            
+            // 3. استخدم Keystore إن وُجد، وإلا فالتوقيع الافتراضي (Debug)
+            signingConfig = if (keystorePropertiesFile.exists()) {
+                signingConfigs.getByName("release")
+            } else {
+                signingConfigs.getByName("debug")
+            }
+
             // تحسينات اختيارية (تقليل حجم التطبيق)
             isMinifyEnabled = false
             isShrinkResources = false

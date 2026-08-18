@@ -1,16 +1,15 @@
 {
   "profile": "الملف الشخصي",
   "tracker": "متابعة الحمل",
-  "notes": "الملاحظات",
   "reminders": "التذكيرات",
   "tips": "نصائح",
   "settings": "الإعدادات",
   "notifications": "الإشعارات",
-  "dark_mode": "الوضع الليلي",
+  "theme_mode": "المظهر",
+  "light_mode": "فاتح",
+  "dark_mode": "داكن",
+  "system_mode": "حسب الجهاز",
   "save": "حفظ",
-
-  "write_note": "اكتب ملاحظة...",
-  "no_notes": "لا توجد ملاحظات",
 
   "write_reminder": "اكتب تذكير...",
   "no_reminders": "لا توجد تذكيرات",

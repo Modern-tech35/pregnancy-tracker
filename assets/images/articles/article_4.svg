@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- stars -->
+  <g>
+    <path d="M120 110 l12 26 26 12 -26 12 -12 26 -12 -26 -26 -12 26 -12 z" fill="#FBBF24"/>
+    <path d="M330 70 l9 19 19 9 -19 9 -9 19 -9 -19 -19 -9 19 -9 z" fill="#FFFFFF"/>
+    <path d="M700 120 l9 19 19 9 -19 9 -9 19 -9 -19 -19 -9 19 -9 z" fill="#F9A8D4"/>
+    <path d="M640 300 l7 15 15 7 -15 7 -7 15 -7 -15 -15 -7 15 -7 z" fill="#FBBF24"/>
+  </g>
+
+  <!-- clouds -->
+  <g fill="#FFFFFF" opacity="0.95">
+    <ellipse cx="150" cy="440" rx="100" ry="44"/>
+    <ellipse cx="240" cy="415" rx="75" ry="38"/>
+    <ellipse cx="660" cy="470" rx="110" ry="46"/>
+    <ellipse cx="740" cy="445" rx="60" ry="30"/>
+    <ellipse cx="60" cy="520" rx="80" ry="36"/>
+  </g>
+
+  <!-- moon -->
+  <g>
+    <circle cx="540" cy="270" r="130" fill="#F9A8D4"/>
+    <circle cx="540" cy="270" r="130" fill="none" stroke="#F472B6" stroke-width="6"/>
+    <!-- nightcap -->
+    <path d="M450 165 q30 -110 150 -130 q-40 70 -10 140 z" fill="#DB2777"/>
+    <circle cx="600" cy="32" r="18" fill="#FFFFFF"/>
+    <!-- closed eyes -->
+    <path d="M480 260 q26 22 52 0" stroke="#BE185D" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M540 260 q26 22 52 0" stroke="#BE185D" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- smile -->
+    <path d="M495 320 q35 30 70 0" stroke="#BE185D" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- blush -->
+    <circle cx="470" cy="300" r="14" fill="#F472B6" opacity="0.55"/>
+    <circle cx="610" cy="300" r="14" fill="#F472B6" opacity="0.55"/>
+  </g>
+
+  <!-- Zzz -->
+  <g stroke="#DB2777" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M210 200 l-44 0 44 48 -44 0" stroke-width="14"/>
+    <path d="M290 130 l-34 0 34 38 -34 0" stroke-width="10"/>
+    <path d="M355 80 l-24 0 24 27 -24 0" stroke-width="7"/>
+  </g>
+</svg>

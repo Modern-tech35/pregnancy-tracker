@@ -1,16 +1,15 @@
 {
   "profile": "Profile",
   "tracker": "Pregnancy Tracker",
-  "notes": "Notes",
   "reminders": "Reminders",
   "tips": "Tips",
   "settings": "Settings",
   "notifications": "Notifications",
-  "dark_mode": "Dark Mode",
+  "theme_mode": "Theme",
+  "light_mode": "Light",
+  "dark_mode": "Dark",
+  "system_mode": "System",
   "save": "Save",
-
-  "write_note": "Write a note...",
-  "no_notes": "No notes",
 
   "write_reminder": "Write a reminder...",
   "no_reminders": "No reminders",
