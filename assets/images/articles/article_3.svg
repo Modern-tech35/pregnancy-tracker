@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- plate -->
+  <circle cx="400" cy="350" r="205" fill="#FFFFFF"/>
+  <circle cx="400" cy="350" r="205" fill="none" stroke="#FBCFE8" stroke-width="8"/>
+  <circle cx="400" cy="350" r="152" fill="#FDF2F8"/>
+
+  <!-- apple -->
+  <g>
+    <circle cx="330" cy="300" r="52" fill="#F87171"/>
+    <path d="M330 250 q-8 -18 10 -28" stroke="#34D399" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <ellipse cx="347" cy="258" rx="12" ry="6" fill="#6EE7B7" transform="rotate(-30 347 258)"/>
+    <path d="M302 282 q14 -10 30 0" stroke="#EF4444" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- orange -->
+  <g>
+    <circle cx="455" cy="330" r="44" fill="#FBBF24"/>
+    <circle cx="455" cy="330" r="44" fill="none" stroke="#F59E0B" stroke-width="6"/>
+    <ellipse cx="455" cy="268" rx="10" ry="16" fill="#6EE7B7" transform="rotate(10 455 268)"/>
+  </g>
+
+  <!-- broccoli -->
+  <g>
+    <circle cx="355" cy="410" r="26" fill="#34D399"/>
+    <circle cx="395" cy="395" r="30" fill="#6EE7B7"/>
+    <circle cx="425" cy="415" r="24" fill="#34D399"/>
+    <rect x="385" y="420" width="14" height="42" rx="7" fill="#A7F3D0"/>
+  </g>
+
+  <!-- carrot -->
+  <g>
+    <path d="M460 430 l52 78 q-24 26 -52 0 z" fill="#FB923C"/>
+    <path d="M466 452 l46 54" stroke="#F97316" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="500" cy="428" rx="10" ry="5" fill="#6EE7B7" transform="rotate(-20 500 428)"/>
+    <ellipse cx="508" cy="442" rx="10" ry="5" fill="#A7F3D0" transform="rotate(25 508 442)"/>
+  </g>
+
+  <!-- sparkle -->
+  <path d="M150 190 l9 19 19 9 -19 9 -9 19 -9 -19 -19 -9 19 -9 z" fill="#F472B6"/>
+  <path d="M660 200 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#F9A8D4"/>
+</svg>

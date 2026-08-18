@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- heartbeat -->
+  <path d="M100 170 h150 l45 65 45 -140 45 140 45 -65 h150" stroke="#EC4899" stroke-width="12" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+  <g fill="#F472B6">
+    <circle cx="341" cy="88" r="12"/>
+    <circle cx="365" cy="88" r="12"/>
+    <path d="M315 94 L391 94 L353 122 z"/>
+  </g>
+
+  <!-- ultrasound ellipse -->
+  <ellipse cx="400" cy="410" rx="250" ry="160" fill="#FDF2F8"/>
+  <ellipse cx="400" cy="410" rx="250" ry="160" fill="none" stroke="#F9A8D4" stroke-width="8"/>
+
+  <!-- baby curled -->
+  <g>
+    <circle cx="380" cy="390" r="55" fill="#FFE4E6"/>
+    <circle cx="380" cy="390" r="55" fill="none" stroke="#F9A8D4" stroke-width="5"/>
+    <path d="M358 385 q22 18 44 0" stroke="#BE185D" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M360 410 q20 15 40 0" stroke="#BE185D" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <ellipse cx="420" cy="450" rx="60" ry="70" fill="#F472B6"/>
+    <ellipse cx="470" cy="370" rx="24" ry="40" fill="#FBCFE8" transform="rotate(25 470 370)"/>
+    <ellipse cx="485" cy="405" rx="24" ry="40" fill="#F9A8D4" transform="rotate(45 485 405)"/>
+  </g>
+
+  <!-- kick motion lines -->
+  <g stroke="#F472B6" stroke-width="8" stroke-linecap="round">
+    <line x1="520" y1="330" x2="560" y2="310"/>
+    <line x1="525" y1="360" x2="575" y2="350"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M640 200 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#FBBF24"/>
+  <path d="M160 300 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#F9A8D4"/>
+</svg>

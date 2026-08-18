@@ -5,6 +5,14 @@ class ArticleDetailPage extends StatelessWidget {
   final Map article;
   const ArticleDetailPage({super.key, required this.article});
 
+  Widget _articleImage(String image,
+      {required double width, required double height, required BoxFit fit}) {
+    final isLocal = image.startsWith('assets/');
+    return isLocal
+        ? Image.asset(image, width: width, height: height, fit: fit)
+        : Image.network(image, width: width, height: height, fit: fit);
+  }
+
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
@@ -24,7 +32,7 @@ class ArticleDetailPage extends StatelessWidget {
             if (article['image'] != null)
               ClipRRect(
                 borderRadius: BorderRadius.circular(12),
-                child: Image.network(
+                child: _articleImage(
                   article['image'],
                   width: double.infinity,
                   height: height * 0.3,

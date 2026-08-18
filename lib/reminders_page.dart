@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:easy_localization/easy_localization.dart';
 
+import 'app_drawer.dart';
+
 class RemindersPage extends StatefulWidget {
   const RemindersPage({super.key});
 
@@ -72,6 +74,7 @@ class _RemindersPageState extends State<RemindersPage> {
     final isDark = Theme.of(context).brightness == Brightness.dark;
 
     return Scaffold(
+      drawer: const AppDrawer(),
       appBar: AppBar(
         title: Text('reminders'.tr()),
         centerTitle: true,
@@ -115,7 +118,7 @@ class _RemindersPageState extends State<RemindersPage> {
             Expanded(
               child: ValueListenableBuilder(
                 valueListenable: box.listenable(),
-                builder: (_, Box b, __) {
+                builder: (_, Box b, _) {
                   final reminders = b.values.toList();
 
                   if (reminders.isEmpty) {

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+
+  <!-- pills -->
+  <g transform="rotate(-25 220 300)">
+    <rect x="160" y="260" width="120" height="70" rx="35" fill="#F472B6"/>
+    <rect x="213" y="260" width="14" height="70" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(18 630 380)">
+    <rect x="585" y="355" width="95" height="55" rx="27" fill="#FBBF24"/>
+    <rect x="628" y="355" width="10" height="55" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(-8 660 190)">
+    <rect x="620" y="168" width="90" height="46" rx="23" fill="#F9A8D4"/>
+  </g>
+
+  <!-- sparkles -->
+  <path d="M150 140 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#F472B6"/>
+  <path d="M680 480 l8 17 17 8 -17 8 -8 17 -8 -17 -17 -8 17 -8 z" fill="#FBBF24"/>
+
+  <!-- folic leaf -->
+  <g>
+    <path d="M260 540 q-70 -90 10 -190" stroke="#34D399" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <ellipse cx="248" cy="430" rx="44" ry="22" fill="#6EE7B7" transform="rotate(-40 248 430)"/>
+    <ellipse cx="282" cy="380" rx="38" ry="20" fill="#A7F3D0" transform="rotate(-65 282 380)"/>
+    <ellipse cx="238" cy="485" rx="40" ry="20" fill="#A7F3D0" transform="rotate(-15 238 485)"/>
+  </g>
+
+  <!-- bottle -->
+  <g>
+    <rect x="320" y="170" width="160" height="330" rx="32" fill="#FFFFFF"/>
+    <rect x="320" y="170" width="160" height="330" rx="32" fill="none" stroke="#FBCFE8" stroke-width="6"/>
+    <rect x="336" y="90" width="128" height="95" rx="22" fill="#DB2777"/>
+    <rect x="368" y="45" width="64" height="58" rx="16" fill="#BE185D"/>
+    <rect x="352" y="310" width="96" height="70" rx="16" fill="#FBCFE8"/>
+    <!-- label heart -->
+    <g fill="#EC4899">
+      <circle cx="388" cy="342" r="10"/>
+      <circle cx="404" cy="342" r="10"/>
+      <path d="M370 348 L422 348 L396 370 z"/>
+    </g>
+  </g>
+</svg>

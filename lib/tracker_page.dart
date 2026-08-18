@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:easy_localization/easy_localization.dart';
 
+import 'app_drawer.dart';
+
 class TrackerPage extends StatelessWidget {
   const TrackerPage({super.key});
 
@@ -28,6 +30,7 @@ class TrackerPage extends StatelessWidget {
     final double fetusSize = (week * 1.3 > 50) ? 50 : week * 1.3;
 
     return Scaffold(
+      drawer: const AppDrawer(),
       appBar: AppBar(title: Text('tracker'.tr())),
       body: ListView(
         padding: const EdgeInsets.all(16),
