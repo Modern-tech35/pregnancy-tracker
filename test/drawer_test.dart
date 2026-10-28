@@ -40,6 +40,16 @@ void main() {
     await tester.tap(find.byIcon(Icons.menu));
     await tester.pumpAndSettle();
     expect(find.byType(Drawer), findsOneWidget);
+
+    // The drawer is scrollable, so the language rows may start below the fold.
+    await tester.scrollUntilVisible(
+      find.text('English'),
+      100,
+      scrollable: find.descendant(
+        of: find.byType(Drawer),
+        matching: find.byType(Scrollable),
+      ),
+    );
     expect(find.text('English'), findsOneWidget);
   });
 
@@ -48,15 +58,21 @@ void main() {
     await _setupHive(tester);
     themeNotifier = ValueNotifier(ThemeMode.light);
 
-    await tester.pumpWidget(
-      EasyLocalization(
-        supportedLocales: const [Locale('ar'), Locale('en'), Locale('fr')],
-        path: 'assets/translations',
-        fallbackLocale: const Locale('ar'),
-        startLocale: const Locale('ar'),
-        child: const MyApp(),
-      ),
-    );
+    // Translation assets are loaded through real file I/O, which needs the
+    // real event loop; without runAsync the second test in this file never
+    // finishes loading and renders no text at all.
+    await tester.runAsync(() async {
+      await tester.pumpWidget(
+        EasyLocalization(
+          supportedLocales: const [Locale('ar'), Locale('en'), Locale('fr')],
+          path: 'assets/translations',
+          fallbackLocale: const Locale('ar'),
+          startLocale: const Locale('ar'),
+          child: const MyApp(),
+        ),
+      );
+      await Future<void>.delayed(const Duration(milliseconds: 300));
+    });
     await tester.pumpAndSettle();
 
     // Profile appears in the AppBar title and the nav bar label.

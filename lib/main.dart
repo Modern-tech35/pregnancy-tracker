@@ -11,6 +11,9 @@ import 'reminders_page.dart';
 
 late ValueNotifier<ThemeMode> themeNotifier;
 
+/// التبويب الحالي للصفحة الرئيسية (يُستخدم للتنقل من القائمة الجانبية)
+final ValueNotifier<int> tabIndexNotifier = ValueNotifier<int>(0);
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -116,8 +119,6 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  int _currentIndex = 0;
-
   final List<Widget> _pages = [
     const ProfilePage(),
     const ArticlesPage(),
@@ -126,21 +127,35 @@ class _MainPageState extends State<MainPage> {
   ];
 
   @override
+  void initState() {
+    super.initState();
+    tabIndexNotifier.addListener(_onTabChanged);
+  }
+
+  @override
+  void dispose() {
+    tabIndexNotifier.removeListener(_onTabChanged);
+    super.dispose();
+  }
+
+  void _onTabChanged() {
+    if (mounted) setState(() {});
+  }
+
+  @override
   Widget build(BuildContext context) {
     // الاعتماد على اللغة الحالية حتى تُعاد بناء الصفحة فور تغيير اللغة
     final langKey = ValueKey('page_${context.locale.languageCode}');
 
     return Scaffold(
-      body: KeyedSubtree(key: langKey, child: _pages[_currentIndex]),
+      body: KeyedSubtree(key: langKey, child: _pages[tabIndexNotifier.value]),
       bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
+        currentIndex: tabIndexNotifier.value,
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.pink,
         unselectedItemColor: Colors.grey,
         onTap: (index) {
-          setState(() {
-            _currentIndex = index;
-          });
+          tabIndexNotifier.value = index;
         },
         items: [
           BottomNavigationBarItem(
